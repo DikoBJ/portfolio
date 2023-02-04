@@ -61,11 +61,11 @@ h1{
     }
     .vid-anim{
         display: table;
-        margin-left: 1rem;
+        
     }
     .website-content{
         display: table;
-        
+        padding: 0;
     }
     .website-content img{
         width: 70%;
