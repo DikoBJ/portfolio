@@ -1,0 +1,11 @@
+.icons img{
+    width: 100px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .icons img{
+        width: 80px;
+    }
+ 
+}

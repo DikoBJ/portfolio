@@ -1,0 +1,50 @@
+
+.home{
+    position: relative;
+}
+
+
+.main_img{
+    width:80%;
+}
+
+
+h2{
+    position: absolute;
+    top:10%;
+    left:38%;
+    background-color: none;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    -webkit-animation: 1s ease 0s normal forwards 1 fadein;
+    animation: 1s ease 0s normal forwards 1 fadein;
+    
+}
+
+@keyframes fadein{
+    0% { opacity:0; transform: translateY(0px);}
+    66% { opacity:0; transform: translateY(0px);}
+    100% { opacity:1; transform: translateY(-50px);}
+}
+
+@-webkit-keyframes fadein{
+    0% { opacity:0; transform: translateY(0px);}
+    66% { opacity:0; transform: translateY(0px);}
+    100% { opacity:1;transform: translateY(-50px); }
+}
+
+@media only screen and (max-width: 1200px) {
+    h2{
+        font-size: 60px;
+    }
+ 
+  }
+
+@media only screen and (max-width: 600px) {
+    h2{
+        font-size: 30px;
+    }
+  }
+

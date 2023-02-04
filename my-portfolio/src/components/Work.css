@@ -1,0 +1,75 @@
+
+h3, h1{
+    color: white;
+    font-family: 'Amatic SC', cursive;
+}
+
+.website-content{
+    display: flex;
+    padding: 1rem;
+    
+}
+h3{
+    font-size: 25px;
+}
+h1{
+    font-size: 45px;
+}
+
+.website-content img{
+    width: 45%;
+    height: auto;
+    margin: 2rem ;
+}
+
+.vid-anim{
+    display: flex;
+    padding: 1rem 1rem ;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    h1{
+        font-size: 30px;
+    }
+    video{
+        width:620px;
+        height:340px;
+    }
+    .vid-anim{
+        display: table;
+    }
+    .website-content{
+        display: table;
+        
+    }
+    .website-content img{
+        width: 70%;
+        
+    }
+  }
+
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 30px;
+    }
+    video{
+        width:360px;
+        height:200px;
+    }
+    .vid-anim{
+        display: table;
+
+        margin-left: 2rem;
+    }
+    .website-content{
+        display: table;
+        
+    }
+    .website-content img{
+        width: 70%;
+        
+    }
+  }
